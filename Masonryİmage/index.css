@@ -1,0 +1,25 @@
+.gallery {
+  position: relative;
+  width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.item {
+  position: relative;
+  transition: .3s;
+}
+
+.item img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+section{
+  margin-top: 10px;
+  background: red;
+  height: 100vh;
+}
